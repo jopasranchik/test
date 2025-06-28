@@ -1,1 +1,12 @@
-print(2)
+word = 'slovo , alina , shliuha'
+#print(word.count)
+#print(word.capitalize())
+#print(word.find('s'))
+a = word.split(' , ')
+
+for i in range(len(a)):
+   a[i] = a[i].capitalize()
+  
+re = " , ".join(a)
+print(re)  
+
