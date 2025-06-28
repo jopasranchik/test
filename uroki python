@@ -1,4 +1,1 @@
-num = [1, 2, 3, "hui", False]
-for i in num:
-    i *=2
-    print(i)
+print(2)
