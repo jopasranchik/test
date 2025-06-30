@@ -1,8 +1,2 @@
-country = {'code': 'ru' , 'name': 'russian'  , 'population' : 144}
-
-
-#print(country['population'])
-
-for el , val in country.items():
-    print(el , " " , val)
-#print(country)
+coun = {'code' : 'ru' , 'name': 'russian' , 'population' : 144}
+print(coun.get('name'))
