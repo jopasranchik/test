@@ -1,2 +1,9 @@
 coun = {'code' : 'ru' , 'name': 'russian' , 'population' : 144}
-print(coun.get('name'))
+#print(coun.get('name'))
+#coun.pop('name') #удалякт ключ
+#coun,clear() #удалякт все
+#coun.popitem() #удаляет послдений элкмкет
+#coun.items() #выводит все
+#coun.values() #выводит только второе
+#coun.keys() #выводит только ключ
+#coun.update() #обновляет хначение
