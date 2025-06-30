@@ -1,12 +1,8 @@
-word = 'slovo , alina , shliuha'
-#print(word.count)
-#print(word.capitalize())
-#print(word.find('s'))
-a = word.split(' , ')
+country = {'code': 'ru' , 'name': 'russian'  , 'population' : 144}
 
-for i in range(len(a)):
-   a[i] = a[i].capitalize()
-  
-re = " , ".join(a)
-print(re)  
 
+#print(country['population'])
+
+for el , val in country.items():
+    print(el , " " , val)
+#print(country)
